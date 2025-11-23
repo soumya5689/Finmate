@@ -1,0 +1,15 @@
+{
+              "compilerOptions": {
+                "jsx": "react-jsx",
+                "module": "esnext",
+                "target": "es6",
+                "moduleResolution": "node",
+                "strict": true,
+                "esModuleInterop": true,
+                "lib": ["dom", "es2017"],
+                "baseUrl": ".", 
+                "paths": {
+                  "@/components/*": ["./components/*"] 
+                }
+              }
+            }
